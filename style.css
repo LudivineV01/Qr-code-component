@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 
-/* Variables */
+/* Variable */
 :root{
 --White: hsl(0, 0%, 100%);
 --lightgray : hsl(212, 45%, 89%);
@@ -82,5 +82,5 @@ img{
     font-size: 15px;
     font-weight: 400;
     color: var(--Grayishblue);
-    padding: 20px 24px;
+    padding: 20px 24px; 
 }
