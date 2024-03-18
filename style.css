@@ -74,7 +74,7 @@ img{
     font-weight: 700;
     font-size: 22px;
     color: var(--Darkblue);
-    padding: 0px 20px;
+    padding: 0px 18px;
 }
 
 
@@ -82,5 +82,5 @@ img{
     font-size: 15px;
     font-weight: 400;
     color: var(--Grayishblue);
-    padding: 20px 24px; 
+    padding: 15px 23px; 
 }
