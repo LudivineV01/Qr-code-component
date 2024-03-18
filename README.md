@@ -15,7 +15,7 @@
   - [My process](#my-process)
     - [Built with :hammer:](#built-with-hammer)
     - [What I learned :brain:](#what-i-learned-brain)
-    - [Continued development](#continued-development)
+    - [Continued development :chart\_with\_upwards\_trend:](#continued-development-chart_with_upwards_trend)
   - [Author](#author)
 
 ## Overview
@@ -53,7 +53,7 @@ root{
 
 - I think I've understood how to use Flexbox with this exercise.
 
-### Continued development
+### Continued development :chart_with_upwards_trend:
 
 - I'm not totally comfortable with the widths and heights of my components. Keep working on their placement on the page.
 

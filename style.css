@@ -53,8 +53,7 @@ body{
 }
 
 .card-img{
-    margin: 0rem 1rem;
-    padding-top: 1rem;
+    margin: 15px auto;
 }
 
 img{
@@ -64,23 +63,18 @@ img{
 }
 
 .card-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 20px;
+    margin: 15px;;
 }
 
 .card-title, .card-desc{
     text-align: center;
-    padding: 0px 2px 0px 2px;
 }
 
 .card-title{
-    margin-top: 5px ;
     font-weight: 700;
-    margin-bottom: 0px;
-    margin-top: 20px;
+    font-size: 22px;
     color: var(--Darkblue);
+    padding: 0px 20px;
 }
 
 
@@ -88,5 +82,5 @@ img{
     font-size: 15px;
     font-weight: 400;
     color: var(--Grayishblue);
-    padding: 20px 20px 0px 20px;
+    padding: 20px 30px;
 }
