@@ -1,0 +1,92 @@
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+/* Variables */
+:root{
+--White: hsl(0, 0%, 100%);
+--lightgray : hsl(212, 45%, 89%);
+--Grayishblue: hsl(220, 15%, 55%);
+--Darkblue: hsl(218, 44%, 22%);
+--shadow-color: 0deg 0% 70%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--lightgray);
+    font-family: "Outfit", sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px;
+    width: 320px;
+    height: 497px;
+
+}
+
+.content-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--White);
+    border-radius: 20px;
+    box-shadow: 0px 0.7px 0.7px hsl(var(--shadow-color) / 0.56),
+    -0.3px 11.2px 11.8px -3px hsl(var(--shadow-color) / 0.47);
+}
+
+.card-img{
+    margin: 0rem 1rem;
+    padding-top: 1rem;
+}
+
+img{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card-title, .card-desc{
+    text-align: center;
+    padding: 0px 2px 0px 2px;
+}
+
+.card-title{
+    margin-top: 5px ;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    color: var(--Darkblue);
+}
+
+
+.card-desc{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--Grayishblue);
+    padding: 20px 20px 0px 20px;
+}
